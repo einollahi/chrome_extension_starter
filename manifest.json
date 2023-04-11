@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "My Brave Extension",
+  "version": "1.0",
+  "description": "This extension removes a specified element from a page",
+  "permissions": [ "scripting", "activeTab" ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Remove Element",
+    "default_icon": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}
